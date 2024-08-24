@@ -1,0 +1,5 @@
+services:
+  web:
+    image: sohamkatore/random-quotes-generator:latest
+    ports:
+      - "3000:3000"
